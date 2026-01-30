@@ -57,7 +57,7 @@ sed -i '\#export ENV=/etc/shinit#a export HISTCONTROL=ignoredups' package/base-f
 # curl -so files/root/.bashrc https://git.kejizero.online/zhao/files/raw/branch/main/root/.bashrc
 
 # default LAN IP
-sed -i "s/192.168.1.1/10.0.0.1/g" package/base-files/files/bin/config_generate
+# sed -i "s/192.168.1.1/10.0.0.1/g" package/base-files/files/bin/config_generate
 
 # 修改名称
 # sed -i 's/OpenWrt/immortalwrt/' package/base-files/files/bin/config_generate
